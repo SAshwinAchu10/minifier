@@ -6,7 +6,7 @@
  * @return {string}
  */
 
-module.exports = function to24HourFormat(amPmString, callback) {
+module.exports.to24HourFormat = function(amPmString, callback) {
     return new Promise((resolve, reject) => {
       if (amPmString === null) {
         reject('error')
