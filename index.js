@@ -6,7 +6,15 @@
  * @return {string}
  */
 
-module.exports.to24HourFormat = function(amPmString) {
-    var d = new Date("1/1/2013 " + amPmString);
-    return d.getHours() + ':' + d.getMinutes();
-};
+module.exports = function to24HourFormat(amPmString, callback) {
+    return new Promise((resolve, reject) => {
+      if (amPmString === null) {
+        reject('error')
+        return callback('error')
+      } else {
+        var d = new Date("1/1/2013 " + amPmString);
+        resolve(d.getHours() + ':' + d.getMinutes())
+        return callback(null, d.getHours() + ':' + d.getMinutes())
+      }
+    })
+  }
