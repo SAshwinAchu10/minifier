@@ -1,0 +1,30 @@
+{
+  "name": "@ashwinachu10/minifier",
+  "version": "0.0.1",
+  "description": "A minifier to minimize core functionalities with reusable functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "function",
+    "minifier"
+  ],
+  "author": "Ashwin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshwinAchu10/minifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AshwinAchu10/minifier/issues"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "homepage": "https://github.com/AshwinAchu10/minifier#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
