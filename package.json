@@ -1,5 +1,5 @@
 {
-  "name": "@ashwinachu10/minifier",
+  "name": "minifier",
   "version": "0.0.1",
   "description": "A minifier to minimize core functionalities with reusable functions",
   "main": "index.js",
