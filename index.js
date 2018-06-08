@@ -2,10 +2,11 @@
 
 /**
  * Adds commas to a number
- * @param {number} number
- * @param {string} locale
+ * @param {string} amPmString
  * @return {string}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
+
+module.exports.to24HourFormat = function(amPmString) {
+    var d = new Date("1/1/2013 " + amPmString);
+    return d.getHours() + ':' + d.getMinutes();
 };
