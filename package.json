@@ -1,6 +1,6 @@
 {
-  "name": "minifier",
-  "version": "0.0.1",
+  "name": "js-optimizer",
+  "version": "0.0.2",
   "description": "A minifier to minimize core functionalities with reusable functions",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,9 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
